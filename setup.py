@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 
 import os
-import re
 import sys
-from codecs import open
 
 try:
     from setuptools import setup
