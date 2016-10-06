@@ -27,5 +27,6 @@ setup(
     package_data={'': ['README.rst', 'LICENSE']},
     data_files=["README.rst"],
     include_package_data=True,
-    install_requires=['Flask==0.11.1']
+    install_requires=['Flask==0.11.1',
+                      'Werkzeug==0.11.11']
 )
