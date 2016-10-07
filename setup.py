@@ -16,7 +16,7 @@ if sys.argv[-1] == 'publish':
 
 setup(
     name='Confopy-webapp',
-    version='0.1.6',
+    version='0.1.6.3',
     url='https://github.com/ooz/Confopy-webapp',
     author='Oliver Zscheyge',
     description='Minimal web UI for Confopy.',
