@@ -13,7 +13,7 @@ app.config['MAX_CONTENT_PATH'] = 20 * 1024 * 1024 # 20 MiB
 
 try:
     os.mkdir(app.config['UPLOAD_FOLDER'])
-except OSError, e:
+except OSError as e:
     pass
 
 def is_in_allowed_extensions(filename):
